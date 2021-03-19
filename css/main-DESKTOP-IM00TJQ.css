@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+header {
+  background: #7b7f81;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.section-title {
+  text-transform: uppercase;
+  color:  rgb(106, 120, 129);
+}
+#portfolio {
+  background-color: #eee;
+}
+
+.text-description {
+  font-size: 12px;
+  font-family: "verdana";
+  color: rgb(108, 121, 129);
+  line-height: 1.2;
+  text-align: justifyLeft;
+}
+.subtitle-text {
+  color:  rgb(109, 125, 134); 
+}
+.btn {
+  background: rgba(139, 146, 151, 0.849);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff
+}
+.section-title-footer {
+  text-transform: uppercase;
+  color: white;
+  
+  padding-top: 20px;
+  display: block;
+  
+}
+
+footer {
+  background-color:rgb(108, 124, 134);
+  height: 300px;
+  margin-top: 20px;
+  padding: 20px;
+}
