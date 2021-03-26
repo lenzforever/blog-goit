@@ -2,7 +2,7 @@
   margin: 0;
 }
 header {
-  background: #7b7f81;
+  background: #868a8b;
   padding-top: 50px;
   padding-bottom: 35px;
 }
@@ -16,42 +16,91 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
 }
+header > a {
+  text-transform: lowercase;
+}
+header ul + a {
+  margin-left: 14px;
+}
+main,
+header ul {
+  width: 750px;
+  margin: 0 auto;
+}
 .section-title {
   text-transform: uppercase;
-  color:  rgb(106, 120, 129);
+  color: rgb(95, 108, 116);
+}
+section {
+  padding: 30px 15px 30px 15px;
+}
+.section-inner div {
+  padding: 15px 10px;
+}
+.section-inner {
+  display: flex;
+  justify-content: space-around;
+}
+.section-inner h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
 #portfolio {
-  background-color: #eee;
+  background-color: rgb(233, 233, 233);
 }
 
 .text-description {
   font-size: 12px;
-  font-family: "verdana";
-  color: rgb(108, 121, 129);
+  font-family: verdana;
+  color: rgb(95, 108, 116);
   line-height: 1.2;
   text-align: justifyLeft;
 }
 .subtitle-text {
-  color:  rgb(109, 125, 134); 
+  color: rgb(99, 111, 119);
 }
 .btn {
-  background: rgba(139, 146, 151, 0.849);
+  background: rgba(146, 153, 158, 0.849);
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff
+  color: #fff;
 }
 .section-title-footer {
   text-transform: uppercase;
   color: white;
-  
   padding-top: 20px;
   display: block;
-  
 }
 
 footer {
-  background-color:rgb(108, 124, 134);
+  background-color: rgb(103, 117, 126);
   height: 300px;
   margin-top: 20px;
   padding: 20px;
+}
+.portfolio img {
+  transition: 0.4s;
+}
+.portfolio img:hover {
+  transform: scale(1.1);
+}
+.portfolio img {
+  margin-top: 20px;
+  padding: 3px;
+}
+.section-blog div {
+  padding: 15px 10px;
+}
+.section-blog {
+  justify-content: space-around;
+  display: flex;
+  color: rgb(102, 116, 124);
+}
+.section-blog h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
